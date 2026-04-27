@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="convery_tutorial"
+run/main_scene="uid://wsr2by0uxh4h"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
