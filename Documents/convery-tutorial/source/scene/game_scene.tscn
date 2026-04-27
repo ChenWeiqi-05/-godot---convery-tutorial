@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://5xjt8m4ua0ah"]
 
-[node name="GameScene" type="Node2D" unique_id=522211962]
+[ext_resource type="Script" uid="uid://32nfe5v0snxk" path="res://source/scene/game_scene.gd" id="1_vqk36"]
+
+[node name="GameScene" type="Node2D" unique_id=57002126]
+script = ExtResource("1_vqk36")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=837330903]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=903620924]
