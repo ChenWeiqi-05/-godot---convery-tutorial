@@ -2,6 +2,16 @@
 
 A simple 2D game project built with Godot 4.
 
+## Features
+
+- **TileMap World Generation**: Procedurally generates a tile-based world with alternating tile patterns
+- **A* Pathfinding**: Integrated AStarGrid2D for pathfinding with Manhattan heuristic
+- **Camera Controls**:
+  - Mouse wheel to zoom in/out
+  - Right-click drag to pan
+  - Keyboard (arrow keys) to move camera
+  - Edge scrolling when mouse near screen boundaries
+
 ## Project Structure
 
 ```
