@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://32nfe5v0snxk" path="res://source/scene/game_scene.gd" id="1_vqk36"]
 [ext_resource type="Texture2D" uid="uid://csl6tvh2mnvpv" path="res://asset/texture/coveyAsset.png" id="2_ln7yi"]
+[ext_resource type="Script" uid="uid://d1i55148mewla" path="res://source/scene/camera_2d.gd" id="3_cke7h"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cke7h"]
 texture = ExtResource("2_ln7yi")
@@ -273,3 +274,5 @@ script = ExtResource("1_vqk36")
 tile_set = SubResource("TileSet_vqk36")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=903620924]
+position = Vector2(576, 322)
+script = ExtResource("3_cke7h")
